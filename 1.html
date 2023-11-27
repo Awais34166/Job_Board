@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Find Your Dream Job</title>
+</head>
+<body>
+  <header>
+    <img src="./images/logo.png" alt="logo">
+    <nav class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Browse Job</a></li>
+        <li><a href="#"> Blogs</a></li>
+        <li><a href="#">Contact Us</a></li>
+      
+    </nav>
+    <div class="header_title">
+      <h5>4536+ Jobs listed</h5>
+    <h1>Find Your Dream Job</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quidem.</p>
+    <button>Find Job</button>
+  </div>
+    
+  </header>
+  <main>
+    <section id="job-search">
+      <label for="searchInput">Search for your dream job:</label>
+      <input type="text" id="searchInput" oninput="searchJobs()" placeholder="Enter keywords...">
+    </section>
+    <section id="job-list">
+      <!-- Job listings will be dynamically added here using JavaScript -->
+    </section>
+    <footer>Powered By Awais</footer>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .navbar {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    
+  }
+    img {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    left: 0;
+    margin-top: -30px;
+
+  }
+  .navbar li {
+     padding: 10px 30px;
+     list-style-type: none;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar li a:hover{
+    color: blue;
+  }
+  header {
+    background:linear-gradient(rgb(109, 109, 221),rgb(104, 144, 160));
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    height: 400px;
+  }
+  .header_title {
+    margin-top: 100px;
+  }
+  .header_title p {
+    margin-top: -10px;
+    font-size: 12px;
+    color: rgb(1, 1, 31);
+  }
+  .header_title button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background:linear-gradient(rgb(109, 109, 221),rgb(104, 144, 160));
+  }
+  .header_title button:hover {
+    background: rgb(42, 45, 209);
+    color: black;
+    font-size: 20px;
+    transition: 1s;
+  }
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  #job-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-listing {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .job-listing h3 {
+    margin-top: 0;
+  }
+  footer {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgb(95, 95, 216),rgb(11, 138, 189));
+    padding: 20px;
+    width: 100%;
+    height: 20px;
+  }
